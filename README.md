@@ -7,7 +7,8 @@
 
 Все задачи этого занятия нужно делать **в одном репозитории**.
 
-**Важно**: если у вас что-то не получилось, то оформляйте Issue [по установленным правилам](https://github.com/netology-code/aqa-homeworks/blob/master/report-requirements.md).
+**Важно**: если у вас что-то не получилось, то оформляйте
+Issue [по установленным правилам](https://github.com/netology-code/aqa-homeworks/blob/master/report-requirements.md).
 
 ## Как сдавать задачи
 
@@ -54,8 +55,11 @@ public class CashbackHackService {
 
 Вам нужно создать проект на базе Gradle, как на лекции, не добавляя в него внешних зависимостей.
 
-Выложите полученный проект на GitHub. Не забудьте о файле [.gitignore](https://github.com/netology-code/aqa-homeworks/blob/master/.gitignore). Подключите GitHub Actions. Можете
-воспользоваться [примером файла](https://github.com/netology-code/aqa-homeworks/blob/master/basics/gradle.yml) для конфигурации gradle-сборки в Github Actions.
+Выложите полученный проект на GitHub. Не забудьте о
+файле [.gitignore](https://github.com/netology-code/aqa-homeworks/blob/master/.gitignore). Подключите GitHub Actions.
+Можете
+воспользоваться [примером файла](https://github.com/netology-code/aqa-homeworks/blob/master/basics/gradle.yml) для
+конфигурации gradle-сборки в Github Actions.
 
 </details>
 
@@ -259,3 +263,13 @@ test {
 issue, что вы создали для демонстрационного проекта: https://github.com/netology-code/aqa-hw-sample/issues/1.
 </details>
 </details>
+
+# Запуск тестов
+
+* Runs all tests: `./gradlew clean test`
+* [Просмотр отчета](build/reports/tests/test/index.html)
+
+# Багрепорты
+
+* [Отрицательный ввод не вызывает ошибку](https://github.com/PavlyukovVladimir/PavlyukovVVQAMid45M9T1AutomationBasics/issues/1)
+* [Кратный 1000 ввод, возвращает 1000](https://github.com/PavlyukovVladimir/PavlyukovVVQAMid45M9T1AutomationBasics/issues/2)
