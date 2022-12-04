@@ -259,3 +259,13 @@ test {
 issue, что вы создали для демонстрационного проекта: https://github.com/netology-code/aqa-hw-sample/issues/1.
 </details>
 </details>
+
+# Запуск тестов
+
+* Runs all tests: `./gradlew clean test`
+* [Просмотр отчета](build/reports/tests/test/index.html)
+
+# Багрепорты
+
+* [Отрицательный ввод не вызывает ошибку]()
+* [Нулевой и кратный 1000 ввод, возвращает 1000]()
